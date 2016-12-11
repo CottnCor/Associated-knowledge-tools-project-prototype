@@ -1,0 +1,14 @@
+document.writeln("<header>");
+document.writeln("<div id=\"overlay\">");
+document.writeln("</div>");
+document.writeln("    <a><span class=\"ion-steam ionicons before hover\" /></a>");
+document.writeln("    <nav>");
+document.writeln("        <ul>");
+document.writeln("            <li><a href=\"../pages/about.html\" \">关于</a></li>");
+document.writeln("            <li><a href=\"../pages/home.html\">知识关联工具 - 项目原型</a></li>");
+// document.writeln("            <li><a href=\"../pages/home.html\" \">主页</a></li>");
+document.writeln("        </ul>");
+document.writeln("    </nav>");
+document.writeln("    <section></section>");
+// document.writeln("    <a href=\"#\"><img src=\"../image/intMinor.svg\" alt=\"avatar\"></a>");
+document.writeln("</header>");

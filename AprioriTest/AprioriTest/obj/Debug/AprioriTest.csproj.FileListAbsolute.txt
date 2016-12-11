@@ -1,0 +1,30 @@
+c:\users\wangsk\documents\visual studio 2013\Projects\AprioriTest\AprioriTest\bin\Debug\AprioriTest.exe.config
+c:\users\wangsk\documents\visual studio 2013\Projects\AprioriTest\AprioriTest\bin\Debug\AprioriTest.exe
+c:\users\wangsk\documents\visual studio 2013\Projects\AprioriTest\AprioriTest\bin\Debug\AprioriTest.pdb
+c:\users\wangsk\documents\visual studio 2013\Projects\AprioriTest\AprioriTest\obj\Debug\AprioriTest.csprojResolveAssemblyReference.cache
+c:\users\wangsk\documents\visual studio 2013\Projects\AprioriTest\AprioriTest\obj\Debug\AprioriTest.exe
+c:\users\wangsk\documents\visual studio 2013\Projects\AprioriTest\AprioriTest\obj\Debug\AprioriTest.pdb
+G:\地理知识关联\AprioriTest\AprioriTest\bin\Debug\AprioriTest.exe.config
+G:\地理知识关联\AprioriTest\AprioriTest\obj\Debug\AprioriTest.exe
+G:\地理知识关联\AprioriTest\AprioriTest\obj\Debug\AprioriTest.pdb
+G:\地理知识关联\AprioriTest\AprioriTest\bin\Debug\AprioriTest.exe
+G:\地理知识关联\AprioriTest\AprioriTest\bin\Debug\AprioriTest.pdb
+G:\地理知识关联\AprioriTest\AprioriTest\obj\Debug\AprioriTest.csprojResolveAssemblyReference.cache
+J:\地理知识关联\AprioriTest\AprioriTest\bin\Debug\AprioriTest.exe.config
+J:\地理知识关联\AprioriTest\AprioriTest\obj\Debug\AprioriTest.exe
+J:\地理知识关联\AprioriTest\AprioriTest\obj\Debug\AprioriTest.pdb
+J:\地理知识关联\AprioriTest\AprioriTest\bin\Debug\AprioriTest.exe
+J:\地理知识关联\AprioriTest\AprioriTest\bin\Debug\AprioriTest.pdb
+J:\地理知识关联\AprioriTest\AprioriTest\obj\Debug\AprioriTest.csprojResolveAssemblyReference.cache
+D:\Downloads\Project\Associated-knowledge-tools-project-prototype\AprioriTest\AprioriTest\bin\Debug\AprioriTest.exe.config
+D:\Downloads\Project\Associated-knowledge-tools-project-prototype\AprioriTest\AprioriTest\bin\Debug\AprioriTest.exe
+D:\Downloads\Project\Associated-knowledge-tools-project-prototype\AprioriTest\AprioriTest\bin\Debug\AprioriTest.pdb
+D:\Downloads\Project\Associated-knowledge-tools-project-prototype\AprioriTest\AprioriTest\obj\Debug\AprioriTest.csprojResolveAssemblyReference.cache
+D:\Downloads\Project\Associated-knowledge-tools-project-prototype\AprioriTest\AprioriTest\obj\Debug\AprioriTest.exe
+D:\Downloads\Project\Associated-knowledge-tools-project-prototype\AprioriTest\AprioriTest\obj\Debug\AprioriTest.pdb
+D:\Downloads\Code\Associated-knowledge-tools-project-prototype\AprioriTest\AprioriTest\bin\Debug\AprioriTest.exe.config
+D:\Downloads\Code\Associated-knowledge-tools-project-prototype\AprioriTest\AprioriTest\bin\Debug\AprioriTest.exe
+D:\Downloads\Code\Associated-knowledge-tools-project-prototype\AprioriTest\AprioriTest\bin\Debug\AprioriTest.pdb
+D:\Downloads\Code\Associated-knowledge-tools-project-prototype\AprioriTest\AprioriTest\obj\Debug\AprioriTest.csprojResolveAssemblyReference.cache
+D:\Downloads\Code\Associated-knowledge-tools-project-prototype\AprioriTest\AprioriTest\obj\Debug\AprioriTest.exe
+D:\Downloads\Code\Associated-knowledge-tools-project-prototype\AprioriTest\AprioriTest\obj\Debug\AprioriTest.pdb

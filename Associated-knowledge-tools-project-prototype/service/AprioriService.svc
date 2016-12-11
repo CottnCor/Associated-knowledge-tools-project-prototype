@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Associated_knowledge_tools_project_prototype.service.AprioriService" CodeBehind="AprioriService.svc.cs" %>

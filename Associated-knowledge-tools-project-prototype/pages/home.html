@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html class="borderbox">
+
+<head>
+    <meta charset="utf-8" />
+    <title>知识关联工具 - 项目原型</title>
+    <link rel="stylesheet" href="..\content\ionicons.css" />
+    <link rel="stylesheet" href="..\content\typo.css" />
+    <link rel="stylesheet" href="..\content\stylesheet.css" />
+</head>
+
+<body>
+    <script type="text/javascript" src="..\script\header.js"></script>
+
+    <!--<input type='checkbox' id='sideToggle' />
+    <label for="sideToggle" class="ion-navicon-round ionicons"></label>-->
+
+    <aside>
+        <section>
+            <ul class="tabControl">
+                <li id="rule-window-control">
+                    <!--<a class="ion-erlenmeyer-flask ionicons"></a>-->
+                    <a>关联规则</a>
+                </li>
+                <li id="paper-window-control" class="current">
+                    <!--<a class="ion-paintbucket ionicons"></a>-->
+                    <a>科学文献</a>
+                </li>
+                <li id="else-window-control">
+                    <!--<a class="ion-ios-color-filter ionicons"></a>-->
+                    <a>其他</a>
+                </li>
+            </ul>
+        </section>
+        <!--<p>论文主题</p>-->
+        <section id="rule-window"><ul></ul></section>
+        <section id="paper-window"><ul></ul></section>
+        <section id="else-window"><ul></ul></section>
+    </aside>
+
+    <main>
+        <section class="wrapper-baseMap">
+            <section class="descartesResult">
+                <div class="descartes">
+                </div>
+                <!--<section id="popping-window">
+                    <div class="descartes"></div>
+                </section>-->
+            </section>
+        </section>
+
+        <section id="title-window">
+            <p>科学文献空间关联</p>
+            <p>地理位置关联及其关联强度</p>
+        </section>
+
+        <section id="list-window">
+            <p>中心文献：</p>
+            <p><a></a></p>
+            <p>关联文献：</p>
+            <ul></ul>
+        </section>
+
+        <section id="searching-window">
+            <a><span class="ion-android-search ionicons"></span></a>
+            <section>
+                <input type="text" name="queryField" />
+            </section>
+        </section>
+
+    </main>
+
+    <script type="text/javascript" src="../script/jquery-2.2.3.min.js"></script>
+
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=85W1xNyfpqGhpyepHIMW1ySH5Kc7mN0B"></script>
+
+    <script src="../script/ECharts/echarts.js"></script>
+    <script src="../script/ECharts/map/china.js"></script>
+    <script src="../script/ECharts/map/world.js"></script>
+    <script src="../script/bmap.min.js"></script>
+
+    <script src="../script/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            //loadDescartes();
+
+            $('#searching-window > a').click(startSearching);
+
+            $('ul.tabControl li').click(controlTabCurrent);
+
+        });
+    </script>
+
+</body>
+
+<script type="text/javascript" src="..\script\footer.js"></script>
+
+</html>

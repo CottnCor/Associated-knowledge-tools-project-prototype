@@ -1,0 +1,286 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{930BFE69-742B-4C75-9205-EB94CB8C5F82}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Associated_knowledge_tools_project_prototype</RootNamespace>
+    <AssemblyName>Associated-knowledge-tools-project-prototype</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>resource\Json.NET\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="fonts\ERASBD.TTF" />
+    <Content Include="fonts\ERASDEMI.TTF" />
+    <Content Include="fonts\ERASLGHT.TTF" />
+    <Content Include="fonts\ERASMD.TTF" />
+    <Content Include="fonts\Fzqkbys.TTF" />
+    <Content Include="fonts\ionicons.eot" />
+    <Content Include="fonts\ionicons.ttf" />
+    <Content Include="fonts\ionicons.woff" />
+    <Content Include="data\npmdepgraph.min10.json" />
+    <Content Include="resource\Json.NET\Newtonsoft.Json.dll" />
+    <Content Include="resource\Json.NET\Newtonsoft.Json.pdb" />
+    <Content Include="resource\Json.NET\Newtonsoft.Json.xml" />
+    <Content Include="resource\PaperData.accdb" />
+    <Content Include="script\bmap.min.js" />
+    <Content Include="script\ECharts\echarts.common.min.js" />
+    <Content Include="script\ECharts\echarts.js" />
+    <Content Include="script\ECharts\echarts.min.js" />
+    <Content Include="script\ECharts\echarts.simple.min.js" />
+    <Content Include="script\ECharts\map\anhui.json" />
+    <Content Include="script\ECharts\map\aomen.json" />
+    <Content Include="script\ECharts\map\beijing.json" />
+    <Content Include="script\ECharts\map\chongqing.json" />
+    <Content Include="script\ECharts\map\fujian.json" />
+    <Content Include="script\ECharts\map\gansu.json" />
+    <Content Include="script\ECharts\map\guangdong.json" />
+    <Content Include="script\ECharts\map\guangxi.json" />
+    <Content Include="script\ECharts\map\guizhou.json" />
+    <Content Include="script\ECharts\map\hainan.json" />
+    <Content Include="script\ECharts\map\hebei.json" />
+    <Content Include="script\ECharts\map\heilongjiang.json" />
+    <Content Include="script\ECharts\map\henan.json" />
+    <Content Include="script\ECharts\map\hubei.json" />
+    <Content Include="script\ECharts\map\hunan.json" />
+    <Content Include="script\ECharts\map\jiangsu.json" />
+    <Content Include="script\ECharts\map\jiangxi.json" />
+    <Content Include="script\ECharts\map\jilin.json" />
+    <Content Include="script\ECharts\map\liaoning.json" />
+    <Content Include="script\ECharts\map\neimenggu.json" />
+    <Content Include="script\ECharts\map\ningxia.json" />
+    <Content Include="script\ECharts\map\qinghai.json" />
+    <Content Include="script\ECharts\map\shandong.json" />
+    <Content Include="script\ECharts\map\shanghai.json" />
+    <Content Include="script\ECharts\map\shanxi.json" />
+    <Content Include="script\ECharts\map\shanxi1.json" />
+    <Content Include="script\ECharts\map\sichuan.json" />
+    <Content Include="script\ECharts\map\taiwan.json" />
+    <Content Include="script\ECharts\map\tianjin.json" />
+    <Content Include="script\ECharts\map\xianggang.json" />
+    <Content Include="script\ECharts\map\xinjiang.json" />
+    <Content Include="script\ECharts\map\xizang.json" />
+    <Content Include="script\ECharts\map\yunnan.json" />
+    <Content Include="script\ECharts\map\zhejiang.json" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="content\ionicons.css" />
+    <Content Include="content\stylesheet.css" />
+    <Content Include="content\typo.css" />
+    <Content Include="fonts\ionicons.svg" />
+    <Content Include="image\add.svg" />
+    <Content Include="image\background.svg" />
+    <Content Include="image\bicyclesService.svg" />
+    <Content Include="image\classRoom.svg" />
+    <Content Include="image\code.svg" />
+    <Content Include="image\diningRoom.svg" />
+    <Content Include="image\github.svg" />
+    <Content Include="image\intMinor-avatar.JPG" />
+    <Content Include="image\intMinor-avatar.svg" />
+    <Content Include="image\intMinor.png" />
+    <Content Include="image\intMinor.svg" />
+    <Content Include="image\line.svg" />
+    <Content Include="image\list.svg" />
+    <Content Include="image\location.svg" />
+    <Content Include="image\longline.svg" />
+    <Content Include="image\mail.svg" />
+    <Content Include="image\overlay.svg" />
+    <Content Include="image\phone.svg" />
+    <Content Include="image\scrollbar_arrow.png" />
+    <Content Include="image\supermarket.svg" />
+    <Content Include="image\title.svg" />
+    <Content Include="pages\about.html" />
+    <Content Include="pages\home.html" />
+    <Content Include="script\ECharts\map\anhui.js" />
+    <Content Include="script\ECharts\map\aomen.js" />
+    <Content Include="script\ECharts\map\beijing.js" />
+    <Content Include="script\ECharts\map\china.js" />
+    <Content Include="script\ECharts\map\chongqing.js" />
+    <Content Include="script\ECharts\map\fujian.js" />
+    <Content Include="script\ECharts\map\gansu.js" />
+    <Content Include="script\ECharts\map\guangdong.js" />
+    <Content Include="script\ECharts\map\guangxi.js" />
+    <Content Include="script\ECharts\map\guizhou.js" />
+    <Content Include="script\ECharts\map\hainan.js" />
+    <Content Include="script\ECharts\map\hebei.js" />
+    <Content Include="script\ECharts\map\heilongjiang.js" />
+    <Content Include="script\ECharts\map\henan.js" />
+    <Content Include="script\ECharts\map\hubei.js" />
+    <Content Include="script\ECharts\map\hunan.js" />
+    <Content Include="script\ECharts\map\jiangsu.js" />
+    <Content Include="script\ECharts\map\jiangxi.js" />
+    <Content Include="script\ECharts\map\jilin.js" />
+    <Content Include="script\ECharts\map\liaoning.js" />
+    <Content Include="script\ECharts\map\neimenggu.js" />
+    <Content Include="script\ECharts\map\ningxia.js" />
+    <Content Include="script\ECharts\map\qinghai.js" />
+    <Content Include="script\ECharts\map\shandong.js" />
+    <Content Include="script\ECharts\map\shanghai.js" />
+    <Content Include="script\ECharts\map\shanxi.js" />
+    <Content Include="script\ECharts\map\shanxi1.js" />
+    <Content Include="script\ECharts\map\sichuan.js" />
+    <Content Include="script\ECharts\map\taiwan.js" />
+    <Content Include="script\ECharts\map\tianjin.js" />
+    <Content Include="script\ECharts\map\world.js" />
+    <Content Include="script\ECharts\map\xianggang.js" />
+    <Content Include="script\ECharts\map\xinjiang.js" />
+    <Content Include="script\ECharts\map\xizang.js" />
+    <Content Include="script\ECharts\map\yunnan.js" />
+    <Content Include="script\ECharts\map\zhejiang.js" />
+    <Content Include="script\footer.js" />
+    <Content Include="script\header.js" />
+    <Content Include="script\jquery-2.2.3.min.js" />
+    <Content Include="script\script.js" />
+    <Content Include="service\AprioriService.asmx" />
+    <Content Include="service\AprioriService.svc" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="service\Apriori.cs" />
+    <Compile Include="service\AprioriService.asmx.cs">
+      <DependentUpon>AprioriService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="service\AprioriService.cs" />
+    <Compile Include="service\AprioriService.svc.cs">
+      <DependentUpon>AprioriService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="service\DataType.cs" />
+    <Compile Include="service\DbHelper.cs" />
+    <Compile Include="service\IAprioriService.cs" />
+    <Compile Include="models\PaperBasicData.cs" />
+    <Compile Include="models\PaperConcatData.cs" />
+    <Compile Include="models\PaperData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service Capabilities\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52023</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52023/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>此项目引用这台计算机上缺少的 NuGet 程序包。使用 NuGet 程序包还原可下载这些程序包。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
