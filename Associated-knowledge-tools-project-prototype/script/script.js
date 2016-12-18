@@ -1,3 +1,4 @@
+/// <reference path='jquery-2.2.3.min.js' />
 
 function startAJAX() {
     descartesRequire("../service/AprioriService.asmx/SearchPaperData", "200");

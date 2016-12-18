@@ -200,6 +200,7 @@
     <Content Include="script\footer.js" />
     <Content Include="script\header.js" />
     <Content Include="script\jquery-2.2.3.min.js" />
+    <Content Include="script\jsapi_vsdoc12_v38.js" />
     <Content Include="script\script.js" />
     <Content Include="service\AprioriService.asmx" />
     <Content Include="service\AprioriService.svc" />
