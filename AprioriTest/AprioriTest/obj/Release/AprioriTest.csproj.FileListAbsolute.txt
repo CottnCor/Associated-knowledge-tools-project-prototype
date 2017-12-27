@@ -1,6 +1,0 @@
-J:\地理知识关联\AprioriTest\AprioriTest\bin\Release\AprioriTest.exe.config
-J:\地理知识关联\AprioriTest\AprioriTest\bin\Release\AprioriTest.exe
-J:\地理知识关联\AprioriTest\AprioriTest\bin\Release\AprioriTest.pdb
-J:\地理知识关联\AprioriTest\AprioriTest\obj\Release\AprioriTest.csprojResolveAssemblyReference.cache
-J:\地理知识关联\AprioriTest\AprioriTest\obj\Release\AprioriTest.exe
-J:\地理知识关联\AprioriTest\AprioriTest\obj\Release\AprioriTest.pdb
